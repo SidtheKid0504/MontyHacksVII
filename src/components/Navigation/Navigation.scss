@@ -1,0 +1,66 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap';
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    box-sizing :border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #16a085;
+}
+
+.nav-title {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-right: 1rem;
+    padding-bottom: 0.3125rem;
+    padding-top: 0.3125rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+ 
+.nav-toggle {
+    border-color: rgba(255, 255, 255, 0.686);;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-toggle:hover {
+    transition: 0.5s;
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #ffffff7e;
+    font-size: 20px;
+    display: block;
+}
+
+.container-fluid li {
+    list-style: none;
+    padding-left:30px;
+    padding-right:30px;
+    margin: 0 0.25rem;
+}
+
+.container-fluid li.active a{
+    color: #ffffff;
+}
+
+
+.header-link:hover {
+    transition: 0.5s;
+    color: #ffffffdb;
+}
+

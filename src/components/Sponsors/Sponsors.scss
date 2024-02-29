@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap';
+
+.sponsors-header {
+    align-self: center;
+    text-align: center;
+}
+
+.sponsors-header h1{
+    color: #fff;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 6cqw;
+    margin-bottom: 2.5%;
+}
+
+.sponsor-content {
+    background-color: #16a085;
+    padding: 15%;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.sponsor-content h1{
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 3cqw;
+}
