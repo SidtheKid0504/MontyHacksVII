@@ -14,19 +14,19 @@ import './App.scss';
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: 'https://montyhacksvii.netlify.app/',
       Component: Home,
     },
     {
-      path: '/about',
+      path: 'https://montyhacksvii.netlify.app/about',
       Component: About,
     },
     {
-      path: '/schedule',
+      path: 'https://montyhacksvii.netlify.app/schedule',
       Component: Schedule,
     },
     {
-      path: '/sponsor',
+      path: 'https://montyhacksvii.netlify.app/sponsor',
       Component: Sponsors,
     },
   ]);
