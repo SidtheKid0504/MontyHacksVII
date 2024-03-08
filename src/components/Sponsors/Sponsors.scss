@@ -17,13 +17,17 @@
 
 .sponsor-content {
     background-color: #16a085;
-    padding: 15%;
-    border-radius: 40px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100fr);
+    grid-template-rows: repeat(2, 20vw);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
-.sponsor-content h1{
-    color: #fff;
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 3cqw;
+#sponsor-image {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: cover;
 }
+
