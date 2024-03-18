@@ -27,7 +27,7 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
                 variant="body2"
                 color="yellow"
             >
-            <Typography sx={{fontSize: "2.5cqmax"}}>{time}</Typography>
+            <Typography className="schedule-text" sx={{fontSize: "2.5cqmax", fontFamily: ""}}>{time}</Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
                 <TimelineDot sx={{
@@ -44,8 +44,8 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
             }}/>
             </TimelineSeparator>
             <TimelineContent >
-                <Typography sx={{fontSize: "2.5cqmax"}} color="#16a085">{activity}</Typography>
-                <Typography sx={{fontSize: "1.5cqmax"}} color="white">{type}</Typography>
+                <Typography className="schedule-text" sx={{fontSize: "2.5cqmax"}} color="#16a085">{activity}</Typography>
+                <Typography  className="schedule-text" sx={{fontSize: "1.5cqmax"}} color="white">{type}</Typography>
             </TimelineContent>
         </TimelineItem>
     );

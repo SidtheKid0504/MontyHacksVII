@@ -5,6 +5,7 @@ import "./Home.scss";
 
 
 export class Home extends Component {
+
     render() {
         return (
             <div class="container">
@@ -35,9 +36,7 @@ export class Home extends Component {
                     </div>
                     <div class="button_container">
                         <div class="signup_button_container">
-                            <a href="/nosign">
-                                <button class="signup_button" href="/nosign">SIGN UP</button>
-                            </a>
+                            <button class="signup_button">SIGN UP</button>
                         </div>
                     </div>
                     
