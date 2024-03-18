@@ -1,5 +1,6 @@
 import {React, Component} from "react";
 import ReactTyped from "react-typed";
+import { Navigate } from 'react-router-dom'
 import "./Home.scss";
 
 
@@ -34,7 +35,9 @@ export class Home extends Component {
                     </div>
                     <div class="button_container">
                         <div class="signup_button_container">
-                            <button class="signup_button" href="">SIGN UP</button>
+                            <a href="/nosign">
+                                <button class="signup_button" href="/nosign">SIGN UP</button>
+                            </a>
                         </div>
                     </div>
                     
