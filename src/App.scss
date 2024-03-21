@@ -2,5 +2,13 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: #34495e;
+    //background-color: #34495e;
+    //background: linear-gradient(90deg, #34495e, #4c7298);
+    background-image: radial-gradient(
+    farthest-corner at 50% 50%,
+    #334e69 0%,
+    #395a78 100%
+  );
+    
+    animation: gradient_anim 23s ease infinite;
 }
