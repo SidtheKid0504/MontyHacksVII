@@ -26,6 +26,7 @@ import vmware from "./assets/vmware.png";
 import genteels from "./assets/genteels.png";
 import friendsy from "./assets/friendsy.png";
 import montyfoundation from "./assets/montyfoundation.png";
+import mba from "./assets/mba.png";
 import "./Sponsors.scss";
 
 export class Sponsors extends Component {
@@ -43,6 +44,7 @@ export class Sponsors extends Component {
                     <img id="sponsor-image" src={princeton} alt="Princeton University"/>
                     <img id="sponsor-image" src={mhs} alt="Montgomery High School"/>
                     <img id="sponsor-image" src={montyfoundation} alt="Montgomery Township Education Foundation"/>
+                    <img id="sponsor-image" src={mba} alt="Montgomery Business Association"/>
                     <img id="sponsor-image" src={mpd} alt="Montgomery Pediatric Dentistry"/>
                     <img id="sponsor-image" src={tigerstale} alt="Tiger's Tale"/>
                     <img id="sponsor-image" src={princetonshop} alt="Princeton North Shopping Center"/>
@@ -62,6 +64,7 @@ export class Sponsors extends Component {
                     <img id="sponsor-image" src={meetgroup} alt="The Meet Group"/>
                     <img id="sponsor-image" src={vmware} alt="VMWARE"/>
                     <img id="sponsor-image" src={genteels} alt="Genteel's"/>
+                    <img id="sponsor-image" src={montyfoundation} style={{visibility: "hidden"}} alt="no img"/>
                     <img id="sponsor-image" src={friendsy} alt="Friendsy"/>
                 </div>
             </div>
