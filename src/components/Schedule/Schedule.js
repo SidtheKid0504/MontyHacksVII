@@ -5,7 +5,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import { Typography, createTheme } from "@mui/material";
+import { Typography } from "@mui/material";
 import TimelineDot from '@mui/lab/TimelineDot';
 import LoginIcon from '@mui/icons-material/Login';
 import CelebrationIcon from '@mui/icons-material/Celebration';
