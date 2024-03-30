@@ -46,7 +46,6 @@ export class Navigation extends Component {
                         <Container fluid>
                             <Navbar.Brand href="/" className="nav-title">
                                 <img src={logo} alt="logo" class="nav-logo"/>
-                                <h1>MontyHacks VII</h1>
                             </Navbar.Brand>
                             <CustomLink href="/about" className="header-link">About</CustomLink>
                             <CustomLink href="/schedule" className="header-link">Schedule</CustomLink>
@@ -59,7 +58,6 @@ export class Navigation extends Component {
                         <Container fluid>
                             <Navbar.Brand href="/" className="nav-title">
                                 <img src={logo} alt="logo" class="nav-logo"/>
-                                <h1>MontyHacks VII</h1>
                             </Navbar.Brand>
                                 <Navbar.Toggle className="nav-toggle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="6cqw" height="4cqw" fill="rgba(255, 255, 255, 0.8)" class="bi bi-list" viewBox="0 0 16 16">
