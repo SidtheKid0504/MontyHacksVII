@@ -1,5 +1,5 @@
 import {React, Component} from "react";
-import google from "./assets/google.png";
+import google from "./assets/google.svg";
 import microsoft from "./assets/microsoft.png";
 import mongodb from "./assets/mongodb.png";
 import princeton from "./assets/princeton.png";

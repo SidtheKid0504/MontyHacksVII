@@ -2,20 +2,21 @@ import {React, Component} from "react";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navigation.scss";
+import logo from "./assets/logo.png";
 
 export class Navigation extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            "isSmall": window.innerWidth < 975
+            "isSmall": window.innerWidth < 992
         }
     }
     
     componentDidMount() {
         window.addEventListener("resize", () => {
             this.setState({
-                "isSmall": window.innerWidth < 975
+                "isSmall": window.innerWidth < 992
             });
         });
 
@@ -44,11 +45,12 @@ export class Navigation extends Component {
                     <Navbar variant="custom" expand="lg" className="nav-bar">
                         <Container fluid>
                             <Navbar.Brand href="/" className="nav-title">
+                                <img src={logo} alt="logo" class="nav-logo"/>
                                 <h1>MontyHacks VII</h1>
                             </Navbar.Brand>
-                                    <CustomLink href="/about" className="header-link">About</CustomLink>
-                                    <CustomLink href="/schedule" className="header-link">Schedule</CustomLink>
-                                    <CustomLink href="/sponsor" className="header-link">Sponsors</CustomLink>
+                            <CustomLink href="/about" className="header-link">About</CustomLink>
+                            <CustomLink href="/schedule" className="header-link">Schedule</CustomLink>
+                            <CustomLink href="/sponsor" className="header-link">Sponsors</CustomLink>
                         </Container>
                     </Navbar>
                 </div>
@@ -56,6 +58,7 @@ export class Navigation extends Component {
                     <Navbar variant="custom" expand="lg" className="nav-bar">
                         <Container fluid>
                             <Navbar.Brand href="/" className="nav-title">
+                                <img src={logo} alt="logo" class="nav-logo"/>
                                 <h1>MontyHacks VII</h1>
                             </Navbar.Brand>
                                 <Navbar.Toggle className="nav-toggle">
@@ -63,7 +66,7 @@ export class Navigation extends Component {
                                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                                     </svg>
                                 </Navbar.Toggle>
-                                <Navbar.Collapse className="model-one-navbar-collapse">
+                                <Navbar.Collapse className="model-two-navbar-collapse">
                                     <CustomLink href="/about" className="header-link">About</CustomLink>
                                     <CustomLink href="/schedule" className="header-link">Schedule</CustomLink>
                                     <CustomLink href="/sponsor" className="header-link">Sponsors</CustomLink>

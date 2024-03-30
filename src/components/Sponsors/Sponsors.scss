@@ -16,13 +16,15 @@
 }
 
 .sponsor-content {
-    background-color: #16a085;
+    background-color: #55DC99;
     display: grid;
     grid-template-columns: repeat(3, 100fr);
     grid-template-rows: repeat(2, 20vw);
     grid-gap: 5px;
     justify-content: center;
     align-items: center;
+    padding-left: 5%;
+    border: 3px solid #B1FF7B;
 }
 
 #sponsor-image {

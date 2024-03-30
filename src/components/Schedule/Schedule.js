@@ -5,14 +5,13 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import { Typography } from "@mui/material";
+import { Typography, createTheme } from "@mui/material";
 import TimelineDot from '@mui/lab/TimelineDot';
 import LoginIcon from '@mui/icons-material/Login';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import LaptopIcon from '@mui/icons-material/Laptop';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import LunchDiningIcon from '@mui/icons-material/LunchDining';
-import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import GavelIcon from '@mui/icons-material/Gavel';
 import CampaignIcon from '@mui/icons-material/Campaign';
@@ -31,10 +30,10 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
             </TimelineOppositeContent>
             <TimelineSeparator>
                 <TimelineDot sx={{
-                    backgroundColor:"#16a085",
+                    backgroundColor:"#55DC99",
                     "&:hover": {
                         transition: "all 0.3s ease-in-out",
-                        backgroundColor:"#0d6352"
+                        backgroundColor:"#B1FF7B"
                     }
                 }}>
                     {Icon}
@@ -44,7 +43,7 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
             }}/>
             </TimelineSeparator>
             <TimelineContent >
-                <Typography className="schedule-text" sx={{fontSize: "2.5cqmax"}} color="#16a085">{activity}</Typography>
+                <Typography className="schedule-text" sx={{fontSize: "2.5cqmax", fontFamily: "Space Grotesk"}} color="#55DC99">{activity}</Typography>
                 <Typography  className="schedule-text" sx={{fontSize: "1.5cqmax"}} color="white">{type}</Typography>
             </TimelineContent>
         </TimelineItem>
@@ -66,10 +65,14 @@ export class Schedule extends Component {
                         <ScheduleItem time="11:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="12:00 am" activity="Guest Speaker: Mandatory" type="MPAC" Icon={<CampaignIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="1:00 pm" activity="Lunch" type="Gym" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        <ScheduleItem time="2:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="3:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="4:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="5:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="2:00 pm" activity="Cyber Security Workshop by CyberAware" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="2:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="3:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="3:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="4:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="4:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="5:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="5:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="7:00 pm" activity="Hacking Stops" Icon={<HourglassTopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="7:30 pm" activity="Judging Starts" type="Commons" Icon={<GavelIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="9:00 pm" activity="Closing Ceremony" type="MPAC" Icon={<CelebrationIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>

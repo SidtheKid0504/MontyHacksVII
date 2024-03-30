@@ -28,7 +28,7 @@ function App() {
     {
       path: '/sponsor',
       Component: Sponsors,
-    },
+    }
   ]);
 
   return (
