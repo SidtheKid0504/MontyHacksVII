@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap';
+
+.sponsors-header {
+    align-self: center;
+    text-align: center;
+}
+
+.sponsors-header h1{
+    color: #fff;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 6cqw;
+    margin-bottom: 2.5%;
+}
+
+.sponsor-content {
+    background-color: #499dc6;
+    display: grid;
+    grid-template-columns: repeat(3, 100fr);
+    grid-template-rows: repeat(2, 20vw);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    border: 3px solid #016098;
+}
+
+#sponsor-image {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: cover;
+}
+

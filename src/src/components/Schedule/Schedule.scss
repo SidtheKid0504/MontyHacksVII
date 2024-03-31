@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap';
+
+
+.container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100% - 200px);
+    margin-top: 2%;
+    overflow: auto;
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+}
+
+.header-content {
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 4rem;
+}
+
+.schedule-container {
+    background-color: #016098;
+    border-radius: 40px;
+    padding: 30px;
+}
+

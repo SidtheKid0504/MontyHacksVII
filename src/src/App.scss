@@ -1,0 +1,19 @@
+:root {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    //background-color: #34495e;
+    //background: linear-gradient(90deg, #34495e, #4c7298);
+  //   background-image: radial-gradient(
+  //   farthest-corner at 50% 50%,
+  //   #03698b 0%,
+  //   #045C7A 100%
+  // );
+  background-image: radial-gradient(
+     farthest-corner at 50% 50%,
+     rgb(37, 129, 195) 100%,
+     #013051 100%,
+   );
+    
+    animation: gradient_anim 23s ease infinite;
+}
