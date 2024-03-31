@@ -38,7 +38,8 @@
       position: absolute;
       top: 0;
       
-      color: #55DC99;
+      //color: #55DC99;
+      color: #95d5f6;
       font-size: 11cqw;
       line-height: 5.5cqw;
       
@@ -113,7 +114,8 @@
 
 .signup_button {
   background-color: transparent;
-  border: 2px solid #B1FF7B;
+  //border: 2px solid #B1FF7B;
+  border: 2px solid #f5f5f5;
   box-sizing: border-box;
   color: #f9fef8;
   font-family: 'Source Sans 3', sans-serif;
@@ -139,7 +141,8 @@
 }
 
 .signup_button:before {
-  background-color: #55DC99;
+  //background-color: #55DC99;
+  background-color: #499dc6;
   content: "";
   height: calc(100% + 3px);
   position: absolute;
@@ -151,7 +154,8 @@
 }
 
 .signup_button:hover:before {
-  background-color: #60f3aa;
+  //background-color: #60f3aa;
+  background-color: #95d5f6;
 }
 
 

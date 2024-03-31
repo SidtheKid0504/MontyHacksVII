@@ -34,10 +34,9 @@ export class Sponsors extends Component {
         return (
             <div class="container">
                 <div class="sponsors-header">
-                    <h1>Past Sponsors</h1>
+                    <h1>Past Monetary Sponsors</h1>
                 </div>
                 <div class="sponsor-content">
-                    <img id="sponsor-image" src={google} alt="Google"/>
                     <img id="sponsor-image" src={microsoft} alt="Microsoft"/>
                     <img id="sponsor-image" src={mongodb} alt="MongoDB"/>
                     <img id="sponsor-image" src={amazon} alt="Amazon"/>
@@ -64,7 +63,6 @@ export class Sponsors extends Component {
                     <img id="sponsor-image" src={meetgroup} alt="The Meet Group"/>
                     <img id="sponsor-image" src={vmware} alt="VMWARE"/>
                     <img id="sponsor-image" src={genteels} alt="Genteel's"/>
-                    <img id="sponsor-image" src={montyfoundation} style={{visibility: "hidden"}} alt="no img"/>
                     <img id="sponsor-image" src={friendsy} alt="Friendsy"/>
                 </div>
             </div>

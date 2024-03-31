@@ -30,11 +30,7 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
             </TimelineOppositeContent>
             <TimelineSeparator>
                 <TimelineDot sx={{
-                    backgroundColor:"#55DC99",
-                    "&:hover": {
-                        transition: "all 0.3s ease-in-out",
-                        backgroundColor:"#B1FF7B"
-                    }
+                    backgroundColor:"#499dc6",
                 }}>
                     {Icon}
                 </TimelineDot>
@@ -43,7 +39,7 @@ const ScheduleItem = ({time, activity, type, Icon}) => {
             }}/>
             </TimelineSeparator>
             <TimelineContent >
-                <Typography className="schedule-text" sx={{fontSize: "2.5cqmax", fontFamily: "Space Grotesk"}} color="#55DC99">{activity}</Typography>
+                <Typography className="schedule-text" sx={{fontSize: "2.5cqmax", fontFamily: "Space Grotesk"}} color="#5bc0ef">{activity}</Typography>
                 <Typography  className="schedule-text" sx={{fontSize: "1.5cqmax"}} color="white">{type}</Typography>
             </TimelineContent>
         </TimelineItem>

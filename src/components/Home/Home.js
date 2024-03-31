@@ -25,7 +25,7 @@ export class Home extends Component {
                         <ReactTyped 
                             style={{
                                 textAlign: "center",
-                                color: "#B1FF7B",
+                                color: "#FFDB58",
                                 fontSize: "5cqw"
                             }} 
                             strings={["Date: May 18th, 2024"]} 
@@ -36,7 +36,10 @@ export class Home extends Component {
                     </div>
                     <div class="button_container">
                         <div class="signup_button_container">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx79zpxBTc8yGdqct9Wm6rwajvbAg00Dm4DZ4W5F66MDo_Og/closedform">
                             <button class="signup_button">SIGN UP</button>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
